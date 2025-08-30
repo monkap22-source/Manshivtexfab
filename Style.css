@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #333;
+}
+header {
+  background: #004466;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+h2 {
+  color: #004466;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+button {
+  background: #004466;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+button:hover {
+  background: #002233;
+}
