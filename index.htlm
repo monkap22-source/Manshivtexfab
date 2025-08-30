@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Manshiv Texfab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Manshiv Texfab</h1>
+    <nav>
+      <a href="#catalog">Catalog</a> | 
+      <a href="#about">About</a> | 
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <section id="hero" style="text-align:center; padding: 20px;">
+    <h2>Your Trusted Partner in Quality Textiles</h2>
+    <p>Explore our premium fabric collections.</p>
+  </section>
+
+  <section id="catalog" style="padding: 20px;">
+    <h2>Our Fabrics</h2>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <div style="border:1px solid #ccc; padding:10px; width: 200px; text-align:center;">
+        <img src="sample1.jpg" alt="Cotton Twill" style="max-width: 100%;" />
+        <h3>Cotton Twill</h3>
+        <p>Durable, versatile fabric.</p>
+      </div>
+      <div style="border:1px solid #ccc; padding:10px; width: 200px; text-align:center;">
+        <img src="sample2.jpg" alt="Polyester Satin" style="max-width: 100%;" />
+        <h3>Polyester Satin</h3>
+        <p>Soft and shiny fabric.</p>
+      </div>
+      <!-- Add more fabrics by copying this block -->
+    </div>
+  </section>
+
+  <section id="about" style="padding: 20px;">
+    <h2>About Us</h2>
+    <p>Manshiv Texfab brings quality textiles to garment manufacturers worldwide. We focus on premium fabrics combining tradition and innovation.</p>
+  </section>
+
+  <section id="contact" style="padding: 20px;">
+    <h2>Contact Us</h2>
+    <form>
+      <label>
+        Name:<br />
+        <input type="text" name="name" required />
+      </label><br /><br />
+      <label>
+        Email:<br />
+        <input type="email" name="email" required />
+      </label><br /><br />
+      <label>
+        Message:<br />
+        <textarea name="message"></textarea>
+      </label><br /><br />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  
+  <footer style="text-align:center; padding: 10px; background:#eee;">
+    © 2025 Manshiv Texfab. All rights reserved.
+  </footer>
+</body>
+</html>
